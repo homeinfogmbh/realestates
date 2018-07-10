@@ -9,6 +9,6 @@ setup(
     author_email='info@homeinfo.de',
     maintainer='Richard Neumann',
     maintainer_email='r.neumann@homeinfo.de',
-    requires=['peewee', 'homeinfo.crm', 'openimmodb', 'wsgilib',],
+    requires=['peewee', 'mdb', 'openimmodb', 'wsgilib',],
     py_modules=['realestates'],
     description='Real estates API.')

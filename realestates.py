@@ -2,7 +2,7 @@
 
 from peewee import DoesNotExist
 
-from homeinfo.crm import Customer
+from mdb import Customer
 from openimmodb import Immobilie
 from wsgilib import Error, HTML, Application
 
