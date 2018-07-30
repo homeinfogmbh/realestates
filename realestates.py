@@ -8,13 +8,14 @@ from wsgilib import Error, HTML, Application
 APPLICATION = Application('realestates', debug=True)
 TITLE = 'Ihre aktuellen Immobilien bei HOMEINFO'
 HEAD = '<head>\n  <title>{}</title>\n</head>'.format(TITLE)
-HEADER = '<h1>Immobilien von "{}" bei HOMEINFO</h1>'
 TEMPLATE = '<!DOCTYPE HTML>\n{}\n{{}}'.format(HEAD)
 COLUMN = '    <td>\n      {}\n    </td>'
 ROW = '  <tr>\n{}\n  </tr>'
 TABLE = '<table border="1">\n{}\n</table>'
 TABLE_HEADER = '    <th>\n      {}\n    </th>'
 TABLE_HEADERS = ('Objektnummer', 'Stand vom')
+COMPANY = '<span style="font-variant: small-caps;">{}</span>'
+HEADER = '<h1>Immobilien von {} bei HOMEINFO</h1>'.format(COMPANY)
 
 
 def table_header():
