@@ -14,7 +14,7 @@ ROW = '  <tr>\n{}\n  </tr>'
 TABLE = '<table border="1">\n{}\n</table>'
 TABLE_HEADER = '    <th>\n      {}\n    </th>'
 TABLE_HEADERS = ('Objektnummer', 'Stand vom')
-COMPANY = '<span style="font-variant: small-caps;">{}</span>'
+COMPANY = '<em>{}</em>'
 HEADER = '<h1>Immobilien von {} bei HOMEINFO</h1>'.format(COMPANY)
 
 
