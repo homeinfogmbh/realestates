@@ -22,7 +22,7 @@ def get_table(immobilien: Iterable[Immobilie]) -> Element:
     header_row = SubElement(table, 'tr')
 
     for header in TABLE_HEADERS:
-        header_col = SubElement(header_row, 'td')
+        header_col = SubElement(header_row, 'th')
         header_col.text = header
 
     for index, immobilie in enumerate(immobilien, start=1):
